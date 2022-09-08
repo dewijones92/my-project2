@@ -65,3 +65,17 @@ packages:
 #
 # Allow a newer minor version of GHC than the snapshot specifies
 # compiler-check: newer-minor
+
+setup-info:
+        ghc:
+                linux-aarch64-tinfo6:
+                        9.0.2:
+                                url: "http://downloads.haskell.org/~ghc/9.0.2/ghc-9.0.2-aarch64-deb10-linux.tar.xz"
+                                content-length: 164802160
+                                sha1: 7dcaba567118c09bd486fb07b8dbaab66bb9a147
+                                sha256: cb016344c70a872738a24af60bd15d3b18749087b9905c1b3f1b1549dc01f46d
+                                9.2.4:
+                                        url: "https://downloads.haskell.org/~ghc/9.2.4/ghc-9.2.4-aarch64-deb10-linux.tar.xz"
+                                        content-length: 276846884
+                                        sha1: 31a21434ea3f9d5ee330299541ba048727296138
+                                        sha256: fc7dbc6bae36ea5ac30b7e9a263b7e5be3b45b0eb3e893ad0bc2c950a61f14ec
